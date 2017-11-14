@@ -1,0 +1,46 @@
+/* CSS */
+
+body{
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Georgia','Times',serif;
+}
+
+
+.animal{width: 300px;padding: 20px;border: 1px solid #dddddd;box-shadow: 8px 8px rgba(218, 218, 218, 0.23);border-radius: 5px;}
+
+.animal h3{
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+.animal .interesting{
+	font-style: italic;
+}
+
+.animal img{
+	width: 300px;
+	border-radius: 5px;
+}
+
+.animal .content {
+	border: 1px solid #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: #fbfbfb;
+}
+
+.animal .content ul{
+	padding-left: 0px;
+	font-size: 16px;
+}
+
+.animal .content ul > li{
+	list-style: none;
+}
+
+.animal .content ul > li > span{
+	font-weight: bold;
+}
