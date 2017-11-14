@@ -1,25 +1,29 @@
 /* CSS */
-
-body{
+body {
 	font-size: 14px;
 	line-height: 20px;
-	font-family: 'Georgia','Times',serif;
+	font-family: 'Georgia', 'Times', serif;
 }
 
+.animal {
+	width: 300px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	box-shadow: 8px 8px rgba(218, 218, 218, 0.23);
+	border-radius: 5px;
+}
 
-.animal{width: 300px;padding: 20px;border: 1px solid #dddddd;box-shadow: 8px 8px rgba(218, 218, 218, 0.23);border-radius: 5px;}
-
-.animal h3{
+.animal h3 {
 	font-weight: bold;
 	margin-top: 5px;
 	font-size: 24px;
 }
 
-.animal .interesting{
+.animal .interesting {
 	font-style: italic;
 }
 
-.animal img{
+.animal img {
 	width: 300px;
 	border-radius: 5px;
 }
@@ -32,15 +36,15 @@ body{
 	background: #fbfbfb;
 }
 
-.animal .content ul{
+.animal .content ul {
 	padding-left: 0px;
 	font-size: 16px;
 }
 
-.animal .content ul > li{
+.animal .content ul > li {
 	list-style: none;
 }
 
-.animal .content ul > li > span{
+.animal .content ul > li > span {
 	font-weight: bold;
 }
